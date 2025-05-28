@@ -8,30 +8,127 @@
 
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-darkc">
+    <!-- Menú de navegación -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark mt">
     <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="#">Bienvenida</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
             <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
+            <a class="nav-link" href="#">Servicios</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
+            <a class="nav-link" href="#">Testimonios</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Contáctanos</a>
             </li>
         </ul>
         </div>
     </div>
     </nav>
+    <!-- Carrusel de imágenes inicial-->
+    <div class="row">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                <img src="./img/tamara-bellis-IwVRO3TLjLc-unsplash.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                <img src="./img/alyssa-strohmann-TS--uNw-JqE-unsplash.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                <img src="./img/freestocks-_3Q3tsJ01nc-unsplash.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            </div>
+        </div>
+        <!-- Bienvenida -->
+    <div class="bg-danger bg-gradient">
+    <div class="container">
+        <div class="row ">
+            <div class="col my-5">
+                <h1 class="text-center text-white fst-italic">Bienvenido a nuestra página</h1>
+                <p class="text-center">Aquí encontrarás información sobre nuestros servicios.</p>
+            </div>
+        </div>
+    </div>
+    </div>
+<!-- Tarjetas servicios -->
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="img/3573045.png" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Personal Shopper</h5>
+                        <p class="card-text">Facilitamos tus compras. Te ayudamos a encontrar lo que necesitas.</p>
+                        <a href="#" class="btn btn-primary">Más información
+                        </a>
+                        </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="./img/1480792.png" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Confección prendas</h5>
+                        <p class="card-text">Realizamos prendas a tu medida</p>
+                        <a href="#" class="btn btn-primary">Más información</a>
+                        </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="./img/1198307.png" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Asesoria de imagen</h5>
+                        <p class="card-text">Nos enfocamos en ti y tu imagen personal. Te ayudamos a definir tu estilo</p>
+                        <a href="#" class="btn btn-primary">Más información</a>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Formulario Registro -->
+    <div class="bg-danger bg-gradient">
+        <div class="container m-4 ">
+            <div class="row">
+                <div class="col">
+                    <form action="" class="w-75 mx-auto m-4">
+                <div>
+                <label for="form-label">Nombres:</label>
+                <input type="text" class="form-control" id="nombre" placeholder="nombre y apellido">
+                <label for="form-label">Telefono:</label>
+                <input type="text" class="form-control" id="telefono" placeholder="Teléfono">
+                <label for="form-label">Correo electrónico:</label>
+                <input type="email" class="form-control" id="correo" placeholder="Correo electrónico">
+                <label for="form-label">Mensaje</label>
+                <textarea class="form-control" aria-label="With textarea" placeholder="Deja aquí tu mensaje o comentario"></textarea>
+            </div>
+            <div class="mt-2 text-center">
+                <button class="btn btn-outline-danger">Enviar</button>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <footer>
+        <div class="bg-dark text-white text-center p-3">
+            <p>© 2023 CarlaC. Todos los derechos reservados.</p>
+            <img src="./img/gh.png" class="" width="30px" alt="...">
+            <img src="./img/ig.avif" class="" width="30px" alt="...">
+            <p>Desarrollado por CarlaC</p>
+        </div>
+    </footer>
+
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
