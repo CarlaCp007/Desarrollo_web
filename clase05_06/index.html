@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        p {
+            background-color: lightcyan;
+            margin: 10;
+            padding: 10;
+            border: 1px solid black;
+            border-radius: 10px;
+            
+            text-align: center;
+        }
+        .caja {
+            background-color: lightsalmon;
+            color: purple;
+            height: 200px;
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            justify-content: center;
+            justify-content: end;
+            justify-content: space-between;
+            justify-content: space-around;
+            justify-content: space-evenly;
+        }
+    </style>
+</head>
+<body>
+    <div class="caja">
+        <p>1</p>
+        <p>2</p>
+        <p>3</p>
+        <p>4</p>
+    </div>
+</body>
+</html>
