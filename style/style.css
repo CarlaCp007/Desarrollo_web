@@ -1,6 +1,5 @@
 *{
-    color:palevioletred;
-    background-color: beige;
+    color:rgb(215, 69, 118);
     font-family: "courgette", monospace;
     font-size: 1.05em;
     font-weight: 500;
@@ -10,9 +9,11 @@
         .titulo{
             font-size: 2.5em;
             text-align: center;
-            margin-top: 0.5em;
             color: darkviolet;
-            margin: 10px 10px;
+            background-color: lightsalmon;
+            padding: 5px 5px 5px 5px;
+            margin: 0;
+            width: 100vw;
         }
         p{
             margin: 30px 30px;
@@ -22,18 +23,29 @@
             color: darkred;
             font-weight: bold;
             margin: 10px 10px;
+            text-align: center;
+            text-decoration: wavy underline;
         }
         footer {
             text-align: center;
-            padding: 1px 0px 0px 20px;
+            padding: 1px 0;
             background-color: lightgray;
-            width: 100vh;
+            width: 100vw;
             bottom: 0;
             border:3px solid darkgray;
-            
-            
-            
+            margin: 0;
+            left: 0;
+            position: relative;
+
         }
         footer:hover {
             background-color: lightcoral;
+            color: white;
+            
+        }
+
+        .nav {
+            background-color: rgb(75, 11, 11);
+            padding: 10px;
+            text-align: center;
         }
