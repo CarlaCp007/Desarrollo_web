@@ -1,23 +1,28 @@
 *{
-    color:rgb(215, 69, 118);
     font-family: "courgette", monospace;
     font-size: 1.05em;
     font-weight: 500;
     line-height: 1.6;
     margin: 0px 0px;
+    padding: 0;
+    text-align: center;
+    box-sizing: border-box;
 }
         .titulo{
             font-size: 2.5em;
             text-align: center;
-            color: darkviolet;
+            color: rgb(90, 25, 118);
             background-color: lightsalmon;
             padding: 5px 5px 5px 5px;
+            padding-bottom: 20px;
+            padding-top: 20px;
             margin: 0;
             width: 100vw;
         }
         p{
             margin: 30px 30px;
             text-align: justify;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         }
         #sobresalido{
             color: darkred;
@@ -25,6 +30,7 @@
             margin: 10px 10px;
             text-align: center;
             text-decoration: wavy underline;
+            font-size: 1.2em;
         }
         footer {
             text-align: center;
@@ -45,7 +51,34 @@
         }
 
         .nav {
-            background-color: rgb(75, 11, 11);
-            padding: 10px;
+            background-color: rgb(255, 218, 218);
+            padding: 1px 0;
             text-align: center;
+            width: 100vw;
+            
         }
+
+        .lista{
+            align-items: center;
+            list-style: none;
+            padding: 0;
+            margin: 10px 10rem 10px;
+
+        }
+        .list-group {
+            display: flex;
+            margin: 0 10px;
+            justify-content: flex-start;
+            align-items: baseline;
+            list-style: radial-gradient(circle at 50% 50%, #ff0000, #0000ff);
+        }
+
+        .envoltorio{
+            background-color: rgb(236, 201, 185);
+            color: rgb(75, 11, 11);
+            padding-bottom: 20px;
+            padding-top: 20px;
+            padding: 3%;
+            width: 100vw;
+        }
+
