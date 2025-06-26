@@ -25,19 +25,64 @@
                         <a class="nav-link" href="../index.html">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Projects</a>
+                        <a class="nav-link" href="../flexbox.html">Flexbox</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Settings</a>
+                        <a class="nav-link" href="../primero.html">Css</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../primero.html">Crud</a>
                 </ul>
             </div>
         </nav>
 
         <main class="my-4">
-            <h2>Welcome to the PHP Management Dashboard</h2>
-            <p>This dashboard allows you to manage your PHP projects, view statistics, and configure settings.</p>
+            <h2>Bienvenido a la pagina de control PHP</h2>
+            <p>Este panel te permite gestionar tus proyectos PHP, ver estadísticas y configurar ajustes.</p>
         </main>
+
+        <div class="card my-4">
+  <div class="card-body">
+    <h5 class="card-title text-center">Estadísticas de Proyectos PHP</h5>
+    <canvas id="phpStatsChart" height="100"></canvas>
+        <table class="table table-striped mt-4">
+      <thead class="thead-dark">
+        <tr>
+          <th>Mes</th>
+          <th>Proyectos Completados</th>
+          <th>Proyectos en Proceso</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Enero</td>
+          <td>3</td>
+          <td>2</td>
+        </tr>
+        <tr>
+          <td>Febrero</td>
+          <td>7</td>
+          <td>3</td>
+        </tr>
+        <tr>
+          <td>Marzo</td>
+          <td>4</td>
+          <td>2</td>
+        </tr>
+        <tr>
+          <td>Abril</td>
+          <td>5</td>
+          <td>4</td>
+        </tr>
+        <tr>
+          <td>Mayo</td>
+          <td>8</td>
+          <td>3</td>
+        </tr>
+      </tbody>
+    </table>
+</div>
+</div>
 
         <footer class="text-center my-4">
             <p>&copy; 2023 PHP Management. All rights reserved.</p>
